@@ -1,0 +1,38 @@
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    line-height: 1.75rem;
+}
+h1 {
+    font-weight: 800;
+}
+h2 {
+    font-size: 130px;
+}
+#increment-btn, #save-btn, #clear-btn {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+    width: 300px;
+    height: 50px;
+    font-weight: 800;
+    border: none;
+    color: aliceblue;
+}
+#save-btn {
+    background-color: green;
+}
+#clear-btn{
+    background-color: red;
+}
+#increment-btn:hover, #save-btn:hover, #clear-btn:hover {
+    width: 350px;
+    height: 70px;
+    cursor: pointer;
+}
